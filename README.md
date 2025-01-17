@@ -12,7 +12,7 @@
 
 设计架构图如下图所示，采用多生产者单一消费者的异步模式，引入循环队列作为消息的缓冲区，提高吞吐量。
 
-![arc](images\arc.png)
+![arc](images/arc.png)
 
 ### Usage
 
@@ -94,7 +94,7 @@ g++ usage.cc -o a.out -std=c++20
 
 支持输出文本到日志文件中，同时也可支持对文件进行分片操作，示例如下:
 
-![outputfile](images/outputfile.ng)
+![outputfile](images/outputfile.png)
 
 ### Performance
 
