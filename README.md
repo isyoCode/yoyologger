@@ -12,7 +12,7 @@
 
 设计架构图如下图所示，采用多生产者单一消费者的异步模式，引入循环队列作为消息的缓冲区，提高吞吐量。
 
-![arc](D:\My Documents\Desktop\cpp测试文件夹\杂七杂八typroa\arc.png)
+![arc](images\arc.png)
 
 ### Usage
 
@@ -90,11 +90,11 @@ g++ usage.cc -o a.out -std=c++20
 
 支持彩色终端文本输出，示例如下:
 
-![image-20250117144815302](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250117144815302.png)
+![color](images/color.png)
 
 支持输出文本到日志文件中，同时也可支持对文件进行分片操作，示例如下:
 
-![image-20250117161750419](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250117161750419.png)
+![outputfile](images/outputfile.ng)
 
 ### Performance
 
